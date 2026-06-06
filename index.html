@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stretch Routine Builder</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Stretch Routine Builder</h1>
+    <p class="subtitle">
+        Generate a personalized stretching routine in seconds
+    </p>
+
+    <div class="controls">
+
+        <select id="stretchType">
+            <option>Hip Mobility</option>
+            <option>Neck Relief</option>
+            <option>Full Body</option>
+            <option>Shoulder Mobility</option>
+        </select>
+
+        <button id="generateBtn">
+    Generate Routine
+        </button>
+
+    </div>
+
+    <div class="routine-card">
+
+        <h2>Your Routine</h2>
+
+        <ul id="routineList">
+            <li>Hip Flexor Stretch - 50 sec</li>
+            <li>Pigeon Pose - 30 sec</li>
+            <li>Butterfly Stretch - 80 sec</li>
+        </ul>
+
+    </div>
+
+    <div class="timer" id="timer">
+    01:00
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
